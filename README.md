@@ -1,4 +1,4 @@
-Hello there, IF you see thaht readme its basically little setup. 
+Hello dare, IF you see thaht readme its basically little setup. 
 
 When you clone the repo the projects would install normally BUT there is a requirement, you need to do migration things again cause i am using my own database server and database it wont work on you STEPS:
 
