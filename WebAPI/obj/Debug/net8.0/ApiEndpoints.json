@@ -1,0 +1,206 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.KullaniciController",
+    "Method": "GetAllKullanicilar",
+    "RelativePath": "kullanicilar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.KullaniciController",
+    "Method": "AddKullanici",
+    "RelativePath": "kullanicilar/ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kullanici",
+        "Type": "WebAPI.Dto.KullaniciDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.KullaniciController",
+    "Method": "UpdateKullanici",
+    "RelativePath": "kullanicilar/guncelle",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kullanici",
+        "Type": "WebAPI.Dto.KullaniciDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.KullaniciController",
+    "Method": "DeleteKullanici",
+    "RelativePath": "kullanicilar/sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.KullaniciController",
+    "Method": "DeleteAllKullanicilar",
+    "RelativePath": "kullanicilar/sil/hepsi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.OyunController",
+    "Method": "GetAllOyunlar",
+    "RelativePath": "oyunlar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.OyunController",
+    "Method": "AddOyun",
+    "RelativePath": "oyunlar/ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oyun",
+        "Type": "WebAPI.Dto.OyunDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.OyunController",
+    "Method": "UpdateOyun",
+    "RelativePath": "oyunlar/guncelle",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oyun",
+        "Type": "WebAPI.Dto.OyunDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.OyunController",
+    "Method": "DeleteOyun",
+    "RelativePath": "oyunlar/sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.OyunController",
+    "Method": "DeleteAllOyun",
+    "RelativePath": "oyunlar/sil/hepsi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.SkorController",
+    "Method": "GetAllSkorlar",
+    "RelativePath": "siralama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.SkorController",
+    "Method": "AddSkor",
+    "RelativePath": "skorlar/ekle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skor",
+        "Type": "WebAPI.Dto.SkorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.SkorController",
+    "Method": "UpdateSkor",
+    "RelativePath": "skorlar/guncelle",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skor",
+        "Type": "WebAPI.Dto.SkorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.SkorController",
+    "Method": "DeleteSkor",
+    "RelativePath": "skorlar/sil/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.SkorController",
+    "Method": "DeleteAllSkors",
+    "RelativePath": "skorlar/sil/hepsi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
